@@ -4,6 +4,8 @@ import "./globals.css";
 import { DevLinkProvider } from "@/devlink/DevLinkProvider";
 import { Navbar } from "@/devlink/Navbar"; // Import the Navbar component
 import { Footer } from "@/devlink/Footer"; // Import the Footer component
+import Home from "./home";
+import About from "./about";
 
 // const inter = Inter({
 //   subsets: ["latin"],
@@ -42,7 +44,8 @@ export default function RootLayout({
             navbarLinkResources="Cloud"
             navbarLinkContact=""
                   /> 
-          {children}
+          <Home />
+          <About />
           <Footer />
         </DevLinkProvider>
       </body>

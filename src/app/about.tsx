@@ -3,7 +3,7 @@
 import { Section, Block, Link } from "@/devlink/_Builtin";
 
 
-export default function Home2() {
+export default function About() {
   return (
     <Section
       tag="section"
@@ -14,9 +14,7 @@ export default function Home2() {
         justifyContent: "center",
       }}
     >
-      <Block tag="div" className="container">
-      {/* Add Nav Bar with props*/}
-        
+      <Block tag="div" className="container">        
         <Block
           tag="div"
           className="hero-split"
