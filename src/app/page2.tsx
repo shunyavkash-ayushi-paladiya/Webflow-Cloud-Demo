@@ -3,7 +3,7 @@
 import { Section, Block, Link } from "@/devlink/_Builtin";
 
 
-export default function Home() {
+export default function Home2() {
   return (
     <Section
       tag="section"
@@ -37,7 +37,7 @@ export default function Home() {
               backgroundClip: "text",
             }}
           >
-            Welcome to Webflow Cloud
+            Welcome to Webflow Cloud 2
           </h1>
           <Block tag="p" className="margin-bottom-24px">
             This is a simple test using Basic components with enhanced styling.
