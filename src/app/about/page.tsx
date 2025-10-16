@@ -1,8 +1,9 @@
 "use client";
+
 import { Section, Block, Link } from "@/devlink/_Builtin";
 
 
-export default function Home() {
+export default function About() {
   return (
     <Section
       tag="section"
@@ -34,7 +35,7 @@ export default function Home() {
               backgroundClip: "text",
             }}
           >
-            Home
+            About
           </h1>
           <Block tag="p" className="margin-bottom-24px">
             This is a simple test using Basic components with enhanced styling.

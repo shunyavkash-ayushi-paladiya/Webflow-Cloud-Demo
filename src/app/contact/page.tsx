@@ -3,12 +3,12 @@
 import { Section, Block, Link } from "@/devlink/_Builtin";
 
 
-export default function About() {
+export default function Contact() {
   return (
     <Section
       tag="section"
       style={{
-        minHeight: "100vh",
+        minHeight: "50vh",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -35,7 +35,7 @@ export default function About() {
               backgroundClip: "text",
             }}
           >
-            Welcome to Webflow Cloud 2
+            Contact
           </h1>
           <Block tag="p" className="margin-bottom-24px">
             This is a simple test using Basic components with enhanced styling.

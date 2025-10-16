@@ -1,26 +1,14 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { DevLinkProvider } from "@/devlink/DevLinkProvider";
-import { Navbar } from "@/devlink/Navbar"; // Import the Navbar component
-import { Footer } from "@/devlink/Footer"; // Import the Footer component
-import Home from "./page";
-import About from "./about";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-// const inter = Inter({
-//   subsets: ["latin"],
-//   variable: "--font-inter",
-// });
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -34,18 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        // className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
-      >
+      <body className={`${inter.variable} antialiased`}>
         <DevLinkProvider>
-          <Navbar
-            navbarLinkFeatures="Hello"
-            navbarLinkProducts="Webflow"
-            navbarLinkResources="Cloud"
-            navbarLinkContact=""
-                  /> 
-          <Home />
-          <About />
+        <Navbar/>
+          {children}
           <Footer />
         </DevLinkProvider>
       </body>
