@@ -37,11 +37,10 @@ export default function Home() {
           >
             Home
           </h1>
-          <TextFiled id="input" name="input" placeholder="write in input" style={{ marginBlock: 20, border: "1px solid white" }} />
-          <Block tag="p" className="margin-bottom-24px">
-            This is a simple test using Basic components with enhanced styling.
-          </Block>
-          <div>
+          <TextFiled id="input" name="input" placeholder="write in input" style={{ marginBottom: 20 }} />
+          <Block tag="p" className="margin-bottom-24px">This is a simple test using Basic components with enhanced styling.</Block>
+          <TextFiled id="input2" name="input2" placeholder="write in input2" style={{ marginBlock: 20}} />
+          <Block>
             <Link
               button={true}
               options={{
@@ -51,7 +50,7 @@ export default function Home() {
             >
               Get Started
             </Link>
-          </div>
+          </Block>
         </Block>
         
       </Block>

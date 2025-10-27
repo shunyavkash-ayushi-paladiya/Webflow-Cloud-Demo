@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function TextFiled({
   id = "",
   name = "",
@@ -5,6 +7,6 @@ export default function TextFiled({
   style = {}
 }) {
   return (
-    <input id={id} name={name} placeholder={placeholder} style={style} />
+    <input id={id} name={name} placeholder={placeholder} style={{ border: "1px solid white", padding: 10, ...style }} />
   );
 }
