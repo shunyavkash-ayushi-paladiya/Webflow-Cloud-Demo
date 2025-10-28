@@ -5,11 +5,11 @@ export default function Navbar() {
   return (
     <Block tag="header">
         <Block className="container mx-auto">
-            {/* <Link href="./">Main Home</Link> */}
-            {/* <Link href="./investment-strategies">Investment Strategies</Link> */}
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+            {/* <Link href="./" className="p-3">Main Home</Link> */}
+            {/* <Link href="./investment-strategies" className="p-3">Investment Strategies</Link> */}
+            <Link href="/" className="p-3">Home</Link>
+            <Link href="/about" className="p-3">About</Link>
+            <Link href="/contact" className="p-3">Contact</Link>
         </Block>
     </Block>
   )
