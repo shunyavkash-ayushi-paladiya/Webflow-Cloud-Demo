@@ -23,11 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
+        <main>
         <DevLinkProvider>
         <Navbar/>
           {children}
           <Footer />
         </DevLinkProvider>
+        </main>
       </body>
     </html>
   );
