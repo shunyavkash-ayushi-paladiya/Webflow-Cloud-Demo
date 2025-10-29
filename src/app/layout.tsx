@@ -24,11 +24,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
         <main>
-        <DevLinkProvider>
-        <Navbar/>
-          {children}
-          <Footer />
-        </DevLinkProvider>
+          <DevLinkProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </DevLinkProvider>
         </main>
       </body>
     </html>

@@ -1,4 +1,5 @@
 "use client";
+
 import { Section, Block } from "@/devlink/_Builtin";
 import Link from "next/link";
 import TextFiled from "./components/Textfield";
@@ -13,7 +14,7 @@ export default function Home() {
 
           <TextFiled id="input" name="input" placeholder="write in input" className="rounded-xl" style={{ marginBottom: 20 }} />
 
-          <Block tag="p" className="margin-bottom-24px">This is a simple test using Basic components with enhanced styling.</Block>
+          <Block tag="p">This is a simple test using Basic components with enhanced styling.</Block>
 
           <TextFiled id="input2" name="input2" placeholder="write in input2" className="rounded-3xl" style={{ marginBlock: "20px 30px" }} />
 
