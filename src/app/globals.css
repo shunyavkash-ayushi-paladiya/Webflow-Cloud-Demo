@@ -29,3 +29,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter);
 }
+
+a {
+  @apply no-underline block;
+}
+
+.button-primary {
+  @apply text-center py-2.5 px-4.5 text-base leading-normal text-black bg-white rounded-lg max-w-max flex items-center justify-center transition-all duration-300 ease-in-out hover:bg-[#b1b1b1];
+}
