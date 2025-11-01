@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import AboutClient from './AboutClient';
+import AboutClient from './aboutClient';
 
 export const metadata: Metadata = {
   title: 'Create Next App | About',
