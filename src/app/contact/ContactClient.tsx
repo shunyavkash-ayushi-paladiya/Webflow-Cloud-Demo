@@ -2,16 +2,21 @@
 
 import { Section, Block } from '@/devlink/_Builtin';
 import Link from 'next/link';
-import TextFiled from './components/Textfield';
+import Image from 'next/image';
+import TextFiled from '../components/Textfield';
 
-export default function Home() {
+export default function Contact() {
   return (
     <Section tag="section" className="min-h-[50vh] flex items-center justify-center">
       <Block tag="div" className="container">
         <Block tag="div" className="hero-split text-center max-w-150 mx-auto">
           <h1 className="mb-6 text-4xl font-bold bg-gradient-to-l from-[#3245ff] to-[#bc52ee] bg-clip-text text-transparent">
-            Home
+            Contact
           </h1>
+
+          <Block className="block">
+            <Image src="window.svg" width={200} height={200} alt="Picture of the author" />
+          </Block>
 
           <TextFiled
             id="input"
