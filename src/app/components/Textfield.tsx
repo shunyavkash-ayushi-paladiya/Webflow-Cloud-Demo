@@ -8,6 +8,6 @@ export default function TextFiled({
   className = "",
 }) {
   return (
-    <input id={id} name={name} placeholder={placeholder} className={`p-2.5 outline-0 ${className}`} style={{ border: "1px solid white", ...style }} />
+    <input id={id} name={name} placeholder={placeholder} className={`block mx-auto p-2.5 outline-0 ${className}`} style={{ border: "1px solid white", ...style }} />
   );
 }
