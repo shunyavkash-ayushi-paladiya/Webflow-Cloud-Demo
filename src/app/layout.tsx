@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import { generateMetadata } from './components/MetaData';
+import generateMetadata from './components/MetaData';
 import './globals.css';
 import { DevLinkProvider } from '@/devlink/DevLinkProvider';
 import Navbar from './components/Navbar';

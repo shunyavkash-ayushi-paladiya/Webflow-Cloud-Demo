@@ -1,4 +1,4 @@
-import { generateMetadata } from '../components/MetaData';
+import generateMetadata from '../components/MetaData';
 import AboutClient from './AboutClient';
 
 export const metadata = generateMetadata({

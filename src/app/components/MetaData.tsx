@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 const { publicRuntimeConfig } = getConfig();
 const basePath = publicRuntimeConfig?.basePath || '';
 
-export function generateMetadata({
+export default function generateMetadata({
   title,
   description,
   image,
