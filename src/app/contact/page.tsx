@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import ContactClient from './contactClient';
+import ContactClient from './ContactClient';
 
 export const metadata: Metadata = {
   title: 'Create Next App | Contact',
