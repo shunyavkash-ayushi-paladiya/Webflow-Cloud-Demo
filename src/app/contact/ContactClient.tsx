@@ -2,7 +2,6 @@
 
 import { Section, Block } from '@/devlink/_Builtin';
 import Link from 'next/link';
-import Image from 'next/image';
 import TextFiled from '../components/Textfield';
 
 export default function Contact() {
