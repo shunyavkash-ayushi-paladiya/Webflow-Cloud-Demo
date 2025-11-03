@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Momo Signature';
+  src: url('../../public/fonts/MomoSignature-Regular.eot');
+  src:
+    url('../../public/fonts/MomoSignature-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/MomoSignature-Regular.woff2') format('woff2'),
+    url('../../public/fonts/MomoSignature-Regular.woff') format('woff'),
+    url('../../public/fonts/MomoSignature-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

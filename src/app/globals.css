@@ -1,9 +1,11 @@
+@import './fonts.css';
+
 /* If you want tailwind 'base' styles to override 'webflow' styles, re-order the layers */
 @layer properties, theme, base, webflow, components, utilities;
 
 /* Webflow global styles are imported in the 'webflow' layer */
-@import "../devlink/global.css" layer(webflow);
-@import "tailwindcss";
+@import '../devlink/global.css' layer(webflow);
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -13,8 +15,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-momo-signature: 'Momo Signature', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-momo-signature);
 }
 
 a {
