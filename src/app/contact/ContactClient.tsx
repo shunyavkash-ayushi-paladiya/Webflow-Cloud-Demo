@@ -15,7 +15,7 @@ export default function Contact() {
           </h1>
 
           <Block className="block">
-            <Image src="window.svg" width={200} height={200} alt="Picture of the author" />
+            <img src="window.svg" className="w-50" alt="Picture of the author" />
           </Block>
 
           <TextFiled
