@@ -13,7 +13,7 @@ export default function Contact() {
             Contact
           </h1>
 
-          <Block className="block">
+          <Block className="block mb-5">
             <img src="window.svg" className="w-50" alt="Picture of the author" />
           </Block>
 

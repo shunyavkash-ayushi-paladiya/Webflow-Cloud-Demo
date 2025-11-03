@@ -13,6 +13,10 @@ export default function About() {
             About
           </h1>
 
+          <Block className="block mb-5">
+            <img src="img/next.svg" className="w-50" alt="Picture of the author" />
+          </Block>
+
           <TextFiled
             id="input"
             name="input"
