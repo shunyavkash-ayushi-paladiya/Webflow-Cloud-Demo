@@ -1,11 +1,11 @@
 import type { NextConfig } from 'next';
 
-const basePath = '/webflow-cloud-demo';
+// const basePath = '/webflow-cloud-demo';
 
 const nextConfig: NextConfig = {
-  basePath,
+  // basePath,
   publicRuntimeConfig: {
-    basePath,
+    // basePath,
   },
 };
 
