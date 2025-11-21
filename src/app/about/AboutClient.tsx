@@ -2,7 +2,6 @@
 
 import { Section, Block } from '@/devlink/_Builtin';
 import Link from 'next/link';
-import TextFiled from '../components/Textfield';
 
 export default function About() {
   return (
@@ -17,7 +16,7 @@ export default function About() {
             <img src="img/next.svg" className="w-50" alt="Picture of the author" />
           </Block>
 
-          <TextFiled
+          {/* <TextFiled
             id="input"
             name="input"
             placeholder="write in input"
@@ -33,7 +32,7 @@ export default function About() {
             placeholder="write in input2"
             className="rounded-3xl"
             style={{ marginBlock: '20px 30px' }}
-          />
+          /> */}
 
           <Block>
             <Link href="/" className="button-primary mx-auto">
