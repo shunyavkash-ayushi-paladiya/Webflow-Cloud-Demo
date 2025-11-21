@@ -2,7 +2,6 @@
 
 import { Section, Block } from '@/devlink/_Builtin';
 import Link from 'next/link';
-import TextFiled from './components/Textfield';
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
             Home
           </h1>
 
-          <TextFiled
+          {/* <TextFiled
             id="input"
             name="input"
             placeholder="write in input"
@@ -29,12 +28,14 @@ export default function Home() {
             placeholder="write in input2"
             className="rounded-3xl"
             style={{ marginBlock: '20px 30px' }}
-          />
+          /> */}
 
           <Block>
             <Link href="/" className="button-primary mx-auto">
               Get Started
             </Link>
+
+            <img src="file.svg"/>
           </Block>
         </Block>
       </Block>
